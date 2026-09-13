@@ -1,0 +1,14 @@
+# 运行环境（uv sync 一条命令复原，不入库）
+.venv/
+
+# 大模型不入库（ModelScope 重新下载，见 README）
+Qwen3-ASR-1.7B/
+Qwen3-ForcedAligner-0.6B/
+
+# 二进制（ffmpeg 可重新下载；运行时释放的 CUDA DLL）
+bin/
+runtime_dlls/
+
+# Python 缓存
+__pycache__/
+*.pyc
